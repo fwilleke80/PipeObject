@@ -1,0 +1,12 @@
+STRINGTABLE opipe
+{
+	opipe														"Pipe Object";
+
+	PIPEOBJECT_RAD_OUTER						"Outer Radius";
+	PIPEOBJECT_RAD_INNER						"Inner Radius";
+	PIPEOBJECT_PROFILE							"Profile";
+		PIPEOBJECT_PROFILE_CIRCLE				"Circle";
+		PIPEOBJECT_PROFILE_NSIDE				"n-Side";
+	PIPEOBJECT_PROFILE_NSIDE_SIDES	"Sides";
+	PIPEOBJECT_USEINNER							"Hollow";
+}

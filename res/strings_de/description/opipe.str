@@ -1,0 +1,12 @@
+STRINGTABLE opipe
+{
+	opipe														"Rohr-Objekt";
+
+	PIPEOBJECT_RAD_OUTER						"Radius Aussen";
+	PIPEOBJECT_RAD_INNER						"Radius Innen";
+	PIPEOBJECT_PROFILE							"Profil";
+		PIPEOBJECT_PROFILE_CIRCLE				"Kreis";
+		PIPEOBJECT_PROFILE_NSIDE				"n-Eck";
+	PIPEOBJECT_PROFILE_NSIDE_SIDES	"Seiten";
+	PIPEOBJECT_USEINNER							"Hohl";
+}
