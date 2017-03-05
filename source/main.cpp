@@ -1,14 +1,15 @@
 #include "c4d.h"
+#include "main.h"
 #include "c4d_symbols.h"
 
-// forward declarations
-Bool RegisterPipeObject();
-
+#define PLUGIN_VERSION String("PipeObject 0.3")
 
 Bool PluginStart()
 {
 	if (!RegisterPipeObject())
 		return false;
+
+	GePrint(PLUGIN_VERSION);
 
 	return true;
 }

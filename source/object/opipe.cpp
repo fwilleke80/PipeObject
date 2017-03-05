@@ -2,10 +2,10 @@
 #include "c4d_symbols.h"
 #include "opipe.h"
 #include "ws_parameterhelp.h"
+#include "main.h"
 
 // be sure to use a unique ID obtained from www.plugincafe.com
-#define ID_PIPEOBJECT		1027411
-#define Oconnector			1011010
+const Int32 ID_PIPEOBJECT = 1027411;
 
 class PipeObject : public ObjectData
 {
